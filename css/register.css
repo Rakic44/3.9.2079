@@ -1,0 +1,56 @@
+body{
+	margin:0;
+	padding:0;
+	color: #3C3C3C;
+	font-family: 'Open Sans', sans-serif;
+ }
+ 
+ h1, p{
+	 color:#000;
+ }
+
+ #login-box
+{
+	width: 250px;
+    height: 350px;
+    background-color:#FCFCFC;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+	padding: 20px;
+	border: 2px solid #CFCFCF;
+	border-radius: 5px;
+	text-align:center;
+}
+.form{
+	margin-top:30px;
+}
+
+.pass{
+	margin-top:7px;
+}
+
+.bottom  input[type="submit"],[name="submit"]{
+	background: #164E66;
+	color: #FFF;
+	border: none;
+	border-radius: 4px;
+	padding: 10px;
+	margin-top:18px;
+}
+
+#login-box input[type="text"],
+#login-box input[type="password"],
+#login-box textarea {
+	padding: 7px;
+	
+}
+.log 
+{
+	margin-right:200px;
+}
